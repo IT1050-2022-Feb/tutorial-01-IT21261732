@@ -25,12 +25,12 @@ int main() {
 
   if(distance<30)
   {
-    amount=distance*50;
+    amount=distance*50;//calculate
     printf("Amount is %.2f",amount);
   }
   else
   {
-    amount=distance*30+(distance-30)*40;
+    amount=distance*30+(distance-30)*40;//calculate
     printf("Amount is %.2f",amount);
   }
     
